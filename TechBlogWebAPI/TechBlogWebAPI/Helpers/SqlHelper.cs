@@ -24,6 +24,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Xml;
 using System.Collections;
+using System.Configuration;
 
 /// <summary>
 /// Summary description for DAL
@@ -44,6 +45,26 @@ namespace SQLHelperClasses
         private SqlHelper()
         {
 
+        }
+
+        static SqlConnection _connection = null;
+        public static SqlConnection OpenConnection()
+        {
+            if (_connection == null)
+            {
+                _connection = new SqlConnection(ConfigurationManager.AppSettings["Connection"]);
+                if (_connection.State == ConnectionState.Closed || _connection.State == ConnectionState.Broken)
+                {
+                    _connection.Open();
+                }
+            }
+            return _connection;
+        }
+
+        public static void CloseConnection()
+        {
+            if (_connection.State == ConnectionState.Open)
+                _connection.Close();
         }
         /// <summary>
         /// This method is used to attach array of SqlParameters to a SqlCommand.
