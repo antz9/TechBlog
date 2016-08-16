@@ -35,7 +35,8 @@ namespace TechBlogWebAPI.Controllers
             const string storedProcedureName = "NewUser";
             try
             {
-                success = SQLHelperClasses.SqlHelper.ExecuteNonQuery(sqlConnection, cmd.CommandType, storedProcedureName,  new SqlParameter[] { paramEmail,paramPassword, paramProfilePicture});               
+                success = SQLHelperClasses.SqlHelper.ExecuteNonQuery(sqlConnection, cmd.CommandType, storedProcedureName,  new SqlParameter[] 
+                { paramEmail,paramPassword, paramProfilePicture});               
             }
             catch (Exception exception)
             {
