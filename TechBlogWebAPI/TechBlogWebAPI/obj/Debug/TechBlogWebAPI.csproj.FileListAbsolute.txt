@@ -85,6 +85,6 @@ D:\Ananth\Projects\TechBlog\TechBlog\TechBlogWebAPI\TechBlogWebAPI\bin\Microsoft
 D:\Ananth\Projects\TechBlog\TechBlog\TechBlogWebAPI\TechBlogWebAPI\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Ananth\Projects\TechBlog\TechBlog\TechBlogWebAPI\TechBlogWebAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Ananth\Projects\TechBlog\TechBlog\TechBlogWebAPI\TechBlogWebAPI\bin\System.Web.Http.Owin.xml
-D:\Ananth\Projects\TechBlog\TechBlog\TechBlogWebAPI\TechBlogWebAPI\obj\Debug\TechBlogWebAPI.csprojResolveAssemblyReference.cache
 D:\Ananth\Projects\TechBlog\TechBlog\TechBlogWebAPI\TechBlogWebAPI\obj\Debug\TechBlogWebAPI.dll
 D:\Ananth\Projects\TechBlog\TechBlog\TechBlogWebAPI\TechBlogWebAPI\obj\Debug\TechBlogWebAPI.pdb
+D:\Ananth\Projects\TechBlog\TechBlog\TechBlogWebAPI\TechBlogWebAPI\obj\Debug\TechBlogWebAPI.csprojResolveAssemblyReference.cache

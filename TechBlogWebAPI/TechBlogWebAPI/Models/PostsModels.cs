@@ -7,8 +7,11 @@ using Newtonsoft.Json;
 
 namespace TechBlogWebAPI.Models
 {
-    public class Posts
+    public class PostsModels
     {
+        [Required]
+        [DataType(DataType.EmailAddress)]
+        public string  EmailId { get; set; }
         [Required]
         [DataType(DataType.Text)]
         public string PostTitle { get; set; }
@@ -32,5 +35,7 @@ namespace TechBlogWebAPI.Models
         [Required]
         [DataType(DataType.DateTime)]
         public DateTime LastEditedDate { get; set; }
+                
+        public string CategoryId { get; set; }
     }
 }

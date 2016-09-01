@@ -5,9 +5,9 @@ using System.Web;
 
 namespace TechBlogWebAPI.Models
 {
-    public class Images
+    public class CategoryModels
     {
-        public byte[] Image { get; set; }
-        public string Caption { get; set; }        
+        public string emailId { get; set; }
+        public string categoryName { get; set; }
     }
 }

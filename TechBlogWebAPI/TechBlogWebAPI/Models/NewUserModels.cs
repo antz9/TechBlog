@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace TechBlogWebAPI.Models
 {
-    public class NewUser
+    public class NewUserModels
     {
         public byte[] ProfilePicture { get; set; }
 

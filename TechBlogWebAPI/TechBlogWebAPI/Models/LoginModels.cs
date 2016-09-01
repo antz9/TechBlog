@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace TechBlogWebAPI.Models
 {
-    public class Login
+    public class LoginModels
     {
         [Required] 
         [DataType(DataType.EmailAddress)]       
